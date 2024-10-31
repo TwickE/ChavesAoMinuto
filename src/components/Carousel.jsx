@@ -48,7 +48,7 @@ function Carousel() {
                 </div>
                 <div className='min-w-full h-64 md:h-96 relative flex items-center'>
                     <div className='absolute ml-16 md:ml-24 w-52 md:w-96'>
-                        <h2 className="font-montserrat font-bold text-white text-2xl md:text-4xl">Precisa de uma nova chave nova para o seu carro?</h2>
+                        <h2 className="font-montserrat font-bold text-white text-2xl md:text-4xl">Precisa de uma chave nova para o seu carro?</h2>
                         <Link to="/contact" className="btn mt-2">
                             Contacte-nos
                         </Link>
