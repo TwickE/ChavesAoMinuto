@@ -3,7 +3,7 @@ import slider2 from '../assets/slider2.jpg'
 import slider3 from '../assets/slider3.jpg'
 import { Link } from 'react-router-dom'
 import icons from '../assets/icons.svg'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function Carousel() {
     const [current, setCurrent] = useState(0)
@@ -25,6 +25,14 @@ function Carousel() {
             setCurrent(current + 1)
         }
     }
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            nextSlide()
+        }, 3000);
+
+        return () => clearInterval(interval);
+    });
 
     return (
         <section className='overflow-hidden relative mt-20 h-64 md:h-96'>
