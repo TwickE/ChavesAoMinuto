@@ -9,7 +9,7 @@ function NotFound() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>404 - Mestre das Fechaduras</title>
+                <title>404 - Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />

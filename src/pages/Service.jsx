@@ -15,7 +15,7 @@ function Service() {
         return <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>404 - Mestre das Fechaduras</title>
+                <title>404 - Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />
@@ -29,7 +29,7 @@ function Service() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>{service.name} - Mestre das Fechaduras</title>
+                <title>{service.name} - Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />

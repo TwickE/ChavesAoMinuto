@@ -10,7 +10,7 @@ function Contact() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Contactos - Mestre das Fechaduras</title>
+                <title>Contactos - Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />

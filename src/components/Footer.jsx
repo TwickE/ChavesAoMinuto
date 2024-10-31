@@ -1,16 +1,14 @@
 import { Link } from 'react-router-dom'
 import data from '../assets/services.json'
 import FSWeb from '../assets/FSWeb-horizontal-logo.png'
+import logo from '../assets/logo.webp'
 
 function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
         <footer className="bg-slate-200 w-full p-4">
-            <div className="flex flex-row justify-center items-center gap-3">
-                <img src="" alt="logo" />
-                <p>Mestre das Fechaduras</p>
-            </div>
+            <img src={logo} alt="logo chaves ao minuto" className='h-24 object-contain mx-auto' />
             <div className="mt-8 w-fit lg:w-full mx-auto flex flex-col gap-16 lg:flex-row justify-center lg:justify-around items-baseline lg:items-start">
                 <div className='flex flex-col gap-3 text-gray-900 text-xl font-bold capitalize'>
                     <h3 className='mb-3 text-2xl text-primary-dark'>Páginas</h3>
@@ -42,7 +40,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <p className='mx-auto w-fit mt-14 text-base text-center'>Mestre das Fechaduras, Lda. © {currentYear} Todos os direitos reservados</p>
+            <p className='mx-auto w-fit mt-14 text-base text-center'>Chaves ao Minuto, Lda. © {currentYear} Todos os direitos reservados</p>
             <a href='https://www.google.com' target='_blank' className='flex flex-col justify-center items-center mt-20'>
                 <p className='text-base text-gray-700 w-fit'>Website desenvolvido por:</p>
                 <img src={FSWeb} className='h-8 w-fit object-contain' alt="Logo da empresa FSWeb, desenvolvedora do site" />

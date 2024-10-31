@@ -12,7 +12,7 @@ function About() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Quem Somos - Mestre das Fechaduras</title>
+                <title>Quem Somos - Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />

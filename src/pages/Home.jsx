@@ -12,7 +12,7 @@ function Home() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Mestre das Fechaduras</title>
+                <title>Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />

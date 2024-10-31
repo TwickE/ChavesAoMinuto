@@ -10,7 +10,7 @@ function Services() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Serviços - Mestre das Fechaduras</title>
+                <title>Serviços - Chaves ao Minuto</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <UseScrollTop />

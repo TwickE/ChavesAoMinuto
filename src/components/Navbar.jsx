@@ -2,6 +2,7 @@ import icons from '../assets/icons.svg'
 import PropTypes from 'prop-types'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../assets/logo.webp'
 
 function Navbar({ currentPage }) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -9,7 +10,7 @@ function Navbar({ currentPage }) {
     return (
         <header>
             <nav className="p-4 flex justify-between items-center bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
-                <Link to='/'><img src="" alt="logo" /></Link>
+                <Link to='/'><img src={logo} alt="logo chaves ao minuto" className='h-12' /></Link>
                 <div className='flex gap-2 items-center'>
                     <ul className='hidden md:flex md:gap-4'>
                         <li className={`p-3 uppercase ${currentPage === 'home' ? 'bg-primary-default text-white rounded md:bg-transparent md:text-primary-default' : 'text-gray-900 hover:text-primary-light'}`}>
