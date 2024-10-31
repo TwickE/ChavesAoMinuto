@@ -5,19 +5,25 @@ import ServicesSection from '../components/ServicesSection'
 import QualitiesSection from '../components/QualitiesSection'
 import Footer from '../components/Footer'
 import UseScrollTop from '../hooks/useScrollTop'
+import { Helmet } from 'react-helmet-async'
 
 function Home() {
-  return (
-    <>
-        <UseScrollTop />
-        <Navbar currentPage='home'/>
-        <Carousel />
-        <AboutSection />
-        <ServicesSection />
-        <QualitiesSection />
-        <Footer />
-    </>
-  )
+    return (
+        <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Mestre das Fechaduras</title>
+                <meta name="description" content="Helmet application" />
+            </Helmet>
+            <UseScrollTop />
+            <Navbar currentPage='home' />
+            <Carousel />
+            <AboutSection />
+            <ServicesSection />
+            <QualitiesSection />
+            <Footer />
+        </>
+    )
 }
 
 export default Home
