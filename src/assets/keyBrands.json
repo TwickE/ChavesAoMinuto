@@ -1,17 +1,22 @@
 [
     {
-        "name": "abus"
+        "name": "abus",
+        "link": "https://www.abus.com/pt"
     },
     {
-        "name": "cisa"
+        "name": "cisa",
+        "link": "https://www.cisa.com/pt/index.html"
     },
     {
-        "name": "jma"
+        "name": "jma",
+        "link": "https://www.jmaportugal.com/pt/"
     },
     {
-        "name": "mottura"
+        "name": "mottura",
+        "link": "#"
     },
     {
-        "name": "silca"
+        "name": "silca",
+        "link": "https://shops.silca.pt/chaves"
     }
 ]
