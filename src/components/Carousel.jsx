@@ -29,7 +29,7 @@ function Carousel() {
     useEffect(() => {
         const interval = setInterval(() => {
             nextSlide()
-        }, 3000);
+        }, 5000);
 
         return () => clearInterval(interval);
     });
@@ -80,9 +80,9 @@ function Carousel() {
                 </button>
             </div>
             <div className='absolute bottom-0 py-4 flex justify-center gap-3 w-full'>
-                <span className={`rounded-full w-4 h-4 cursor-pointer ${current === 0 ? 'bg-primary-default' : 'bg-white'}`} onClick={() => setCurrent(0)} />
-                <span className={`rounded-full w-4 h-4 cursor-pointer ${current === 1 ? 'bg-primary-default' : 'bg-white'}`} onClick={() => setCurrent(1)} />
-                <span className={`rounded-full w-4 h-4 cursor-pointer ${current === 2 ? 'bg-primary-default' : 'bg-white'}`} onClick={() => setCurrent(2)} />
+                <span className={`rounded-full w-3 h-3 cursor-pointer ${current === 0 ? 'bg-primary-default' : 'bg-white'}`} onClick={() => setCurrent(0)} />
+                <span className={`rounded-full w-3 h-3 cursor-pointer ${current === 1 ? 'bg-primary-default' : 'bg-white'}`} onClick={() => setCurrent(1)} />
+                <span className={`rounded-full w-3 h-3 cursor-pointer ${current === 2 ? 'bg-primary-default' : 'bg-white'}`} onClick={() => setCurrent(2)} />
             </div>
         </section>
     )
