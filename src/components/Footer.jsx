@@ -7,7 +7,7 @@ function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-primary-light w-full p-4">
+        <footer className="bg-primary-superlight w-full p-4">
             <img src={logo} alt="logo chaves ao minuto" className='h-24 object-contain mx-auto' />
             <div className="mt-8 w-fit max-w-[1440px] mx-auto lg:w-full flex flex-col gap-16 lg:flex-row justify-center lg:justify-around items-center lg:items-start">
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold capitalize'>
@@ -20,7 +20,7 @@ function Footer() {
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold'>
                     <Link to="/services" className='mb-3 text-2xl text-primary-dark'>Serviços</Link>
                     {data.map((service, index) => (
-                        <Link key={index} to={`/services/${service.name}`} className="hover:text-primary-default">{service.name}</Link>
+                        <Link key={index} to={`/services/${service.name}`} state={{ service }} className="hover:text-primary-default">{service.name}</Link>
                     ))}
                 </div>
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold'>
@@ -35,7 +35,7 @@ function Footer() {
                         <a href="mailto:chaveaominuto@gmail.com" target='_blank' className="hover:text-primary-default">chaveaominuto@gmail.com</a>
                     </div>
                     <div className='flex flex-col items-center lg:items-start gap-1'>
-                        <p className='text-base text-gray-700'>Morada</p>
+                        <p className='text-base text-gray-700'>Loja</p>
                         <a href="https://maps.app.goo.gl/CcKtZs8reqBWShmi6" target='_blank' className="hover:text-primary-default">Estr. de Benfica 690 A, 1500-111 Lisboa</a>
                     </div>
                 </div>

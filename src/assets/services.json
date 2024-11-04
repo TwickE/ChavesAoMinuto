@@ -14,18 +14,18 @@
         "description": "Oferecemos um serviço especializado de instalação de fechaduras, adaptado a todas as necessidades de segurança residencial e comercial. Desde fechaduras tradicionais a sistemas modernos de alta segurança, os nossos técnicos garantem uma instalação precisa e de confiança. Com anos de experiência no setor, estamos preparados para recomendar as melhores opções de proteção, proporcionando tranquilidade e segurança ao cliente, com um trabalho rápido e de qualidade."
     },
     {
-        "name": "Comandos de Garagem",
+        "name": "Duplicação de Comandos de Garagem",
         "image": "garageRemote",
         "imageDescription": "Uma mão a segurar um comando de garagem",
         "smallDescription": "Configuração e duplicação de comandos de garagem com total segurança e precisão.",
         "description": "Disponibilizamos um serviço completo de configuração e duplicação de comandos de garagem, assegurando um controlo de acesso prático e fiável. Utilizando tecnologia avançada, adaptamo-nos a diferentes modelos e sistemas, oferecendo soluções personalizadas para máxima conveniência e segurança. Quer necessite de um comando extra ou de uma substituição, os nossos profissionais garantem um serviço rápido e de confiança."
     },
     {
-        "name": "Chaves de Carros",
+        "name": "Duplicação de Chaves de Carros",
         "image": "carKeys",
         "imageDescription": "Uma mão a segurar uma chave de carro",	
         "smallDescription": "Duplicação e programação de chaves de carros com precisão e segurança.",
-        "description": "Oferecemos serviços especializados na duplicação e programação de chaves de carros, abrangendo uma ampla gama de modelos e sistemas de segurança. Com equipamentos modernos e técnicos experientes, garantimos chaves de substituição confiáveis, incluindo chaves codificadas e comandos inteligentes. Quer seja para uma chave extra ou para a reposição de uma chave perdida, o nosso serviço é rápido, seguro e ajustado às suas necessidades."
+        "description": "Oferecemos serviços especializados na duplicação e programação de chaves de carros, abrangendo uma ampla gama de modelos e sistemas de segurança. Com equipamentos modernos e técnicos experientes, garantimos chaves de substituição confiáveis, incluindo chaves codificadas e comandos inteligentes. Quer seja para uma chave extra ou para a reposição de uma chave perdida, o nosso serviço é rápido, seguro e ajustado às suas necessidades. Duplicamos mais de 90% das marcas e modelos de automóveis existentes no mercado."
     },
     {
         "name": "Abertura de Portas",
@@ -42,7 +42,7 @@
         "description": "Oferecemos um serviço de reparação de calçado especializado, recuperando a qualidade e o conforto dos seus sapatos preferidos. Desde a substituição de solas e tacões ao tratamento de couro e costuras, trabalhamos com materiais de alta qualidade e técnicas cuidadosas para prolongar a vida útil do seu calçado. Confie-nos os seus sapatos para um resultado duradouro e com acabamentos profissionais."
     },
     {
-        "name": "Serviço de Condomínios",
+        "name": "Serviços de Condomínios",
         "image": "condo",
         "imageDescription": "Um condomínio",
         "smallDescription": "Soluções completas para a segurança de condomínios: instalação de fechaduras e cópias de chaves.",

@@ -11,6 +11,7 @@ export default {
                     default: "#FED267",
                     dark: "#FFC22D",
                     light: "#FFE198",
+                    superlight: "#FFF3D4",
                 },
             },
             fontFamily: {

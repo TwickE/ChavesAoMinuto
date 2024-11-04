@@ -3,11 +3,6 @@ import icons from '../assets/icons.svg'
 function ContactSection() {
     return (
         <section className="px-4 w-full max-w-[1440px] mx-auto mt-12 flex flex-col justify-center items-center gap-5">
-            <div className="flex items-center gap-3 capitalize text-primary-default text-xl font-bold">
-                <span className="w-6 h-[2px] bg-gray-800"></span>
-                Contactos
-                <span className="w-6 h-[2px] bg-gray-800"></span>
-            </div>
             <h2 className="text-primary-default text-2xl font-bold capitalize text-center">Entre em Contacto Connosco</h2>
             <div className="flex flex-col">
                 <div className="flex flex-row justify-center items-center flex-wrap gap-14">
@@ -18,7 +13,7 @@ function ContactSection() {
                             </svg>
                         </span>
                         <div className='flex flex-col gpa-2 sm:gap-3'>
-                            <h3 className='font-bold text-xl text-gray-900'>Morada</h3>
+                            <h3 className='font-bold text-xl text-gray-900'>Loja</h3>
                             <p className='text-lg w-52 sm:w-64 text-gray-900 break-words'>Estrada de Benfica 690 A, 1500-111 Lisboa</p>
                         </div>
                     </a>
