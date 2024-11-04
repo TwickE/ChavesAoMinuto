@@ -2,7 +2,7 @@ import icons from '../assets/icons.svg'
 
 function ContactSection() {
     return (
-        <section className="px-4 sm:px-20 mt-12 flex flex-col justify-center items-center gap-5">
+        <section className="px-4 w-full max-w-[1440px] mx-auto mt-12 flex flex-col justify-center items-center gap-5">
             <div className="flex items-center gap-3 capitalize text-primary-default text-xl font-bold">
                 <span className="w-6 h-[2px] bg-gray-800"></span>
                 Contactos
@@ -19,7 +19,7 @@ function ContactSection() {
                         </span>
                         <div className='flex flex-col gpa-2 sm:gap-3'>
                             <h3 className='font-bold text-xl text-gray-900'>Morada</h3>
-                            <p className='text-lg w-52 sm:w-64 text-gray-900'>Estrada de Benfica 690 A, 1500-111 Lisboa</p>
+                            <p className='text-lg w-52 sm:w-64 text-gray-900 break-words'>Estrada de Benfica 690 A, 1500-111 Lisboa</p>
                         </div>
                     </a>
                     <a href="tel: +351 961 674 262" className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-gray-200 hover:bg-gray-300 border-4 border-transparent hover:border-4 hover:border-primary-default">
@@ -30,7 +30,7 @@ function ContactSection() {
                         </span>
                         <div className='flex flex-col gpa-2 sm:gap-3'>
                             <h3 className='font-bold text-xl text-gray-900'>Telefone</h3>
-                            <p className='text-lg w-52 sm:w-64 text-gray-900'>+351 961 674 262<br></br>+351 211 957 430</p>
+                            <p className='text-lg w-52 sm:w-64 text-gray-900 break-words'>+351 961 674 262<br></br>+351 211 957 430</p>
                         </div>
                     </a>
                     <a href="mailto:chaveaominuto@gmail.com" target='_blank' className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-gray-200 hover:bg-gray-300 border-4 border-transparent hover:border-4 hover:border-primary-default">
@@ -41,7 +41,7 @@ function ContactSection() {
                         </span>
                         <div className='flex flex-col gpa-2 sm:gap-3'>
                             <h3 className='font-bold text-xl text-gray-900'>E-mail</h3>
-                            <p className='text-lg w-52 sm:w-64 text-gray-900'>chaveaominuto@gmail.com</p>
+                            <p className='text-lg w-52 sm:w-64 text-gray-900 break-words'>chaveaominuto@gmail.com</p>
                         </div>
                     </a>
                 </div>

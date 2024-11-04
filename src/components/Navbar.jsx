@@ -8,11 +8,11 @@ function Navbar({ currentPage }) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header>
-            <nav className="p-4 flex justify-between items-center bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+        <header className='w-full fixed z-20 top-0 bg-white border-b border-gray-200 flex justify-center'>
+            <nav className="p-4 flex justify-between items-center w-full max-w-[1440px]">
                 <Link to='/'><img src={logo} alt="logo chaves ao minuto" className='h-12' /></Link>
                 <div className='flex gap-2 items-center'>
-                    <ul className='hidden md:flex md:gap-4'>
+                    <ul className='hidden md:flex md:gap-2'>
                         <li className={`p-3 uppercase ${currentPage === 'home' ? 'bg-primary-default text-white rounded md:bg-transparent md:text-primary-default' : 'text-gray-900 hover:text-primary-light'}`}>
                             <Link to='/'>início</Link>
                         </li>

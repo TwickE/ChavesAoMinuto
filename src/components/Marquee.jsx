@@ -4,7 +4,7 @@ import data from '../assets/keyBrands.json'
 
 function Marquee() {
     return (
-        <section className="my-20 w-full mx-auto px-4 sm:px-20 overflow-x-hidden">
+        <section className="my-20 w-full max-w-[1440px] mx-auto px-4 overflow-x-hidden">
             <ReactMarquee
                 autoFill={true}
                 gradient={true}

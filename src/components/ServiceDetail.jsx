@@ -5,7 +5,7 @@ function ServiceDetail({ serviceData }) {
     const loadedImage = services[serviceData.image]
 
     return (
-        <section className="px-4 sm:px-20 md:px-40 mt-12 flex flex-col justify-center items-center gap-5">
+        <section className="px-4 w-full max-w-[1440px] mx-auto sm:px-20 md:px-40 mt-12 flex flex-col justify-center items-center gap-5">
             <div className="flex items-center gap-3 text-primary-default text-xl font-bold">
                 <span className="w-6 h-[2px] bg-gray-800"></span>
                 Sobre o Serviço

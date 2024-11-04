@@ -38,7 +38,7 @@ function Carousel() {
         <section className='overflow-hidden relative mt-20 h-64 md:h-96'>
             <div className="flex transition ease-in-out duration-700" style={{ transform: `translateX(-${current * 100}%)` }}>
                 <div className='min-w-full h-64 md:h-96 relative flex items-center'>
-                    <div className='absolute ml-16 md:ml-24 w-52 md:w-96'>
+                    <div className='absolute ml-16 w-52 md:w-96 px-4 min-[1440px]:ml-[calc((100vw-1440px)/2+80px)]'>
                         <h2 className="font-montserrat font-bold text-white text-2xl md:text-4xl">Não consegue abrir a sua porta?</h2>
                         <Link to="/contact" className="btn mt-2">
                             Contacte-nos
@@ -47,7 +47,7 @@ function Carousel() {
                     <img className='object-cover min-w-full min-h-full' src={slider1} alt="" />
                 </div>
                 <div className='min-w-full h-64 md:h-96 relative flex items-center'>
-                    <div className='absolute ml-16 md:ml-24 w-52 md:w-96'>
+                    <div className='absolute ml-16 w-52 md:w-96 px-4 min-[1440px]:ml-[calc((100vw-1440px)/2+80px)]'>
                         <h2 className="font-montserrat font-bold text-white text-2xl md:text-4xl">Precisa de uma chave nova para o seu carro?</h2>
                         <Link to="/contact" className="btn mt-2">
                             Contacte-nos
@@ -56,7 +56,7 @@ function Carousel() {
                     <img className='object-cover min-w-full min-h-full' src={slider2} alt="" />
                 </div>
                 <div className='min-w-full h-64 md:h-96 relative flex items-center'>
-                    <div className='absolute ml-16 md:ml-24 w-52 md:w-96'>
+                    <div className='absolute ml-16 w-52 md:w-96 px-4 min-[1440px]:ml-[calc((100vw-1440px)/2+80px)]'>
                         <h2 className="font-montserrat font-bold text-white text-2xl md:text-4xl">Quer trocar a fechadura da sua porta?</h2>
                         <Link to="/contact" className="btn mt-2">
                             Contacte-nos
@@ -65,15 +65,15 @@ function Carousel() {
                     <img className='object-cover min-w-full min-h-full' src={slider3} alt="" />
                 </div>
             </div>
-            <div className='absolute top-0 h-full left-0 flex justify-between items-center px-3 md:px-10'>
+            <div className='absolute top-0 h-full left-0 flex justify-between items-center px-4 min-[1440px]:ml-[calc((100vw-1440px)/2)]'>
                 <button onClick={() => previousSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200'>
                     <svg className='w-5 h-5 fill-primary-default'>
                         <use href={`${icons}#arrow-left-icon`}></use>
                     </svg>
                 </button>
             </div>
-            <div className='absolute top-0 h-full right-0 flex justify-between items-center px-3 md:px-10'>
-            <button onClick={() => nextSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200'>
+            <div className='absolute top-0 h-full right-0 flex justify-between items-center px-4 min-[1440px]:mr-[calc((100vw-1440px)/2)]'>
+                <button onClick={() => nextSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200'>
                     <svg className='w-5 h-5 fill-primary-default'>
                         <use href={`${icons}#arrow-right-icon`}></use>
                     </svg>

@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer className="bg-slate-200 w-full p-4">
             <img src={logo} alt="logo chaves ao minuto" className='h-24 object-contain mx-auto' />
-            <div className="mt-8 w-fit lg:w-full mx-auto flex flex-col gap-16 lg:flex-row justify-center lg:justify-around items-center lg:items-start">
+            <div className="mt-8 w-fit max-w-[1440px] mx-auto lg:w-full flex flex-col gap-16 lg:flex-row justify-center lg:justify-around items-center lg:items-start">
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold capitalize'>
                     <h3 className='mb-3 text-2xl text-primary-dark'>Páginas</h3>
                     <Link to="/" className="hover:text-primary-default">Início</Link>
