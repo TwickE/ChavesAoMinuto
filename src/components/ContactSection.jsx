@@ -6,7 +6,7 @@ function ContactSection() {
             <h2 className="text-primary-default text-2xl font-bold capitalize text-center">Entre em Contacto Connosco</h2>
             <div className="flex flex-col">
                 <div className="flex flex-row justify-center items-center flex-wrap gap-14">
-                    <a href="https://maps.app.goo.gl/CcKtZs8reqBWShmi6" target='_blank' className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-gray-200 hover:bg-gray-300 border-4 border-transparent hover:border-4 hover:border-primary-default">
+                    <a href="https://maps.app.goo.gl/CcKtZs8reqBWShmi6" target='_blank' className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-primary-superlight hover:bg-primary-light border-4 border-transparent hover:border-4 hover:border-primary-default">
                         <span className='bg-white w-20 sm:w-28 h-20 sm:h-28 rounded-xl flex justify-center items-center'>
                             <svg className='w-10 sm:w-16 h-10 sm:h-16 fill-primary-default'>
                                 <use href={`${icons}#map-icon`}></use>
@@ -17,7 +17,7 @@ function ContactSection() {
                             <p className='text-lg w-52 sm:w-64 text-gray-900 break-words'>Estrada de Benfica 690 A, 1500-111 Lisboa</p>
                         </div>
                     </a>
-                    <a href="tel: +351 961 674 262" className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-gray-200 hover:bg-gray-300 border-4 border-transparent hover:border-4 hover:border-primary-default">
+                    <a href="tel: +351 961 674 262" className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-primary-superlight hover:bg-primary-light border-4 border-transparent hover:border-4 hover:border-primary-default">
                         <span className='bg-white w-20 sm:w-28 h-20 sm:h-28 rounded-xl flex justify-center items-center'>
                             <svg className='w-10 sm:w-16 h-10 sm:h-16 fill-primary-default'>
                                 <use href={`${icons}#phone-icon`}></use>
@@ -28,7 +28,7 @@ function ContactSection() {
                             <p className='text-lg w-52 sm:w-64 text-gray-900 break-words'>+351 961 674 262<br></br>+351 211 957 430</p>
                         </div>
                     </a>
-                    <a href="mailto:chaveaominuto@gmail.com" target='_blank' className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-gray-200 hover:bg-gray-300 border-4 border-transparent hover:border-4 hover:border-primary-default">
+                    <a href="mailto:chaveaominuto@gmail.com" target='_blank' className="w-full flex flex-row justify-center items-center gap-4 sm:gap-6 sm:flex-1 p-4 rounded-xl cursor-pointer bg-primary-superlight hover:bg-primary-light border-4 border-transparent hover:border-4 hover:border-primary-default">
                         <span className='bg-white w-20 sm:w-28 h-20 sm:h-28 rounded-xl flex justify-center items-center'>
                             <svg className='w-10 sm:w-16 h-10 sm:h-16 fill-primary-default'>
                                 <use href={`${icons}#map-icon`}></use>

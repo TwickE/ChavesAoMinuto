@@ -66,14 +66,14 @@ function Carousel() {
                 </div>
             </div>
             <div className='absolute top-0 h-full left-0 flex justify-between items-center px-4 min-[1440px]:ml-[calc((100vw-1440px)/2)]'>
-                <button onClick={() => previousSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200'>
+                <button onClick={() => previousSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200' aria-label="Próxima imagem">
                     <svg className='w-5 h-5 fill-primary-default'>
                         <use href={`${icons}#arrow-left-icon`}></use>
                     </svg>
                 </button>
             </div>
             <div className='absolute top-0 h-full right-0 flex justify-between items-center px-4 min-[1440px]:mr-[calc((100vw-1440px)/2)]'>
-                <button onClick={() => nextSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200'>
+                <button onClick={() => nextSlide()} className='w-10 h-10 flex justify-center items-center rounded-full bg-white hover:bg-gray-200' aria-label="Imagem anterior">
                     <svg className='w-5 h-5 fill-primary-default'>
                         <use href={`${icons}#arrow-right-icon`}></use>
                     </svg>

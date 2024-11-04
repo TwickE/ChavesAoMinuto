@@ -32,7 +32,7 @@ function Navbar({ currentPage }) {
                         </svg>
                         961 674 262
                     </a>
-                    <button onClick={() => (setMobileMenuOpen(!mobileMenuOpen))} className='p-2 hover:bg-gray-100 rounded-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden'>
+                    <button onClick={() => (setMobileMenuOpen(!mobileMenuOpen))} className='p-2 hover:bg-gray-100 rounded-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden' aria-label="Abrir Menu de Navegação">
                         <svg className='w-6 h-6 fill-gray-600'>
                             <use href={`${icons}#menu-icon`}></use>
                         </svg>
