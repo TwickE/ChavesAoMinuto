@@ -8,9 +8,9 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    default: "#F7A51E",
-                    dark: "#E4991E",
-                    light: "#FFC058",
+                    default: "#FED267",
+                    dark: "#FFC22D",
+                    light: "#FFE198",
                 },
             },
             fontFamily: {
