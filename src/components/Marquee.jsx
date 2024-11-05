@@ -10,7 +10,6 @@ function Marquee() {
                 gradient={true}
                 gradientWidth={100}
                 speed={100}
-                pauseOnHover={true}
             >
                 {data.map((brand, index) => (
                     <a key={index} href={brand.link} target='_blank'>
