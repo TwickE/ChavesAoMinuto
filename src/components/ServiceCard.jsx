@@ -10,9 +10,7 @@ function ServiceCard({ service }) {
             <img src={loadedImage} className='object-cover w-full max-h-44 rounded-t-lg' alt={service.imageDescription} />
             <h3 className='px-4 mt-4 text-lg leading-5 min-h-10 text-primary-default text-center font-bold'>{service.name}</h3>
             <p className='px-4 mt-4 text-base text-gray-900'>{service.smallDescription}</p>
-            <button className="btn my-6 m-auto">
-                <Link to={`/services/${service.name}`} state={{ service }}>Saber mais</Link>
-            </button>
+            <Link to={`/services/${service.name}`} state={{ service }} className="btn my-6 m-auto">Saber mais</Link>
         </div>
     )
 }
