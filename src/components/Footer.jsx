@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import data from '../assets/services.json'
-import FSWeb from '../assets/FSWeb.webp'
 import logo from '../assets/logo.webp'
+import icons from '../assets/icons.svg'
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -43,7 +43,9 @@ function Footer() {
             <p className='mx-auto w-fit mt-14 text-base text-center'>Chaves ao Minuto, Lda. © {currentYear} Todos os direitos reservados</p>
             <a href='https://linktr.ee/FSWebsite' target='_blank' className='flex flex-col justify-center items-center mt-20'>
                 <p className='text-base text-gray-700 w-fit'>Website desenvolvido por:</p>
-                <img src={FSWeb} className='h-8 w-fit object-contain' alt="Logo da empresa FSWeb, desenvolvedora do site" />
+                <svg className='h-8 w-fit'>
+                        <use href={`${icons}#FSWeb-icon`}></use>
+                </svg>
             </a>
         </footer>
     )
