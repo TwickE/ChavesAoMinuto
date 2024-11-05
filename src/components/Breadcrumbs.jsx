@@ -1,6 +1,6 @@
 import icons from '../assets/icons.svg'
 import { Link } from 'react-router-dom'
-import breadcrumbsImg from '../assets/breadcrumbs.jpg'
+import breadcrumbsImg from '../assets/breadcrumbs.webp'
 import PropTypes from 'prop-types'
 
 function Breadcrumbs({ pageName, intermidiatePage }) {

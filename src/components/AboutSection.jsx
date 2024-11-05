@@ -1,4 +1,4 @@
-import aboutSectionImage from '../assets/aboutSection.jpg'
+import aboutSectionImage from '../assets/aboutSection.webp'
 
 function AboutSection() {
     return (

@@ -1,4 +1,4 @@
-import pattern from '../assets/pattern.png'
+import pattern from '../assets/pattern.webp'
 import icons from '../assets/icons.svg'
 
 function QualitiesSection() {

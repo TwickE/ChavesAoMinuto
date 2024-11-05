@@ -1,10 +1,10 @@
-import carKeys from './servicesImages/carKeys.png';
-import condo from './servicesImages/condo.jpg';
-import doorOpening from './servicesImages/doorOpening.jpg';
-import garageRemote from './servicesImages/garageRemote.jpg';
-import keyDuplication from './servicesImages/keyDuplication.jpg';
-import lockInstallation from './servicesImages/lockInstallation.jpg';
-import shoeRepair from './servicesImages/shoeRepair.jpg';
+import carKeys from './servicesImages/carKeys.webp';
+import condo from './servicesImages/condo.webp';
+import doorOpening from './servicesImages/doorOpening.webp';
+import garageRemote from './servicesImages/garageRemote.webp';
+import keyDuplication from './servicesImages/keyDuplication.webp';
+import lockInstallation from './servicesImages/lockInstallation.webp';
+import shoeRepair from './servicesImages/shoeRepair.webp';
 
 export default {
     carKeys,

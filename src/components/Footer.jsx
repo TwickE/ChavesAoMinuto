@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import data from '../assets/services.json'
-import FSWeb from '../assets/FSWeb-horizontal-logo.png'
+import FSWeb from '../assets/FSWeb.webp'
 import logo from '../assets/logo.webp'
 
 function Footer() {
