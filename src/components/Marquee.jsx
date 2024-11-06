@@ -13,13 +13,22 @@ function Marquee() {
                 pauseOnHover={true}
             >
                 {data.map((brand, index) => (
-                    <a key={index} href={brand.link} target='_blank'>
+                    brand.name !== 'mottura' ? (
+                        <a key={index} href={brand.link} target='_blank'>
+                            <img
+                                src={keyBrands[brand.name]}
+                                alt={brand.name}
+                                className='h-20 object-contain pr-20'
+                            />
+                        </a>
+                    ) : (
                         <img
+                            key={index}
                             src={keyBrands[brand.name]}
                             alt={brand.name}
                             className='h-20 object-contain pr-20'
                         />
-                    </a>
+                    )
                 ))}
             </ReactMarquee>
         </section>

@@ -45,6 +45,7 @@ function ContactSection() {
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
+                    title='Mapa com a localização da loja'
                     className='w-full h-96 mt-8 mb-20 border-4 border-primary-default rounded-xl'
                 ></iframe>
             </div>
