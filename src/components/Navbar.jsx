@@ -59,7 +59,7 @@ function Navbar({ currentPage }) {
                     </a>
                     <button ref={buttonRef} onClick={() => (setMobileMenuOpen(!mobileMenuOpen))} className='p-2 hover:bg-gray-100 rounded-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden' aria-label="Abrir Menu de Navegação">
                         <svg className='w-6 h-6 fill-primary-dark'>
-                            <use href={`${icons}#menu-icon`}></use>
+                            <use href={`${icons}#${mobileMenuOpen ? 'menu-close-icon' : 'menu-icon'}`}></use>
                         </svg>
                     </button>
                 </div>
