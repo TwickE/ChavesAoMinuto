@@ -44,7 +44,7 @@ function Footer() {
             <a href='https://linktr.ee/FSWebsite' target='_blank' className='flex flex-col justify-center items-center mt-20'>
                 <p className='text-base text-gray-700 w-fit'>Website desenvolvido por:</p>
                 <svg className='h-8 w-fit'>
-                        <use href={`${icons}#FSWeb-icon`}></use>
+                    <use href={`${icons}#FSWeb-icon`}></use>
                 </svg>
             </a>
         </footer>
