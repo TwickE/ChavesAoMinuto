@@ -8,6 +8,7 @@ import UseScrollTop from '../hooks/useScrollTop'
 import { Helmet } from 'react-helmet-async'
 import logo from '../assets/logo.webp'
 import Whatsapp from '../components/Whatsapp'
+import InterventionZones from '../components/InterventionZones'
 
 function Home() {
     return (
@@ -43,6 +44,7 @@ function Home() {
             <Navbar currentPage='home' />
             <Carousel />
             <AboutSection />
+            <InterventionZones />
             <ServicesSection />
             <QualitiesSection />
             <Footer />

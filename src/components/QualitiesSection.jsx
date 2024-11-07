@@ -8,7 +8,7 @@ function QualitiesSection() {
 
 
     return (
-        <section className='bg-gray-950 mt-20 h-fit py-8 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${pattern})` }}>
+        <section className='bg-[#252330] my-20 h-fit py-8 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${pattern})` }}>
             <div className='px-4 w-full max-w-[1440px] mx-auto h-fit flex flex-row justify-center gap-16 items-center flex-wrap'>
                 <div className='flex flex-col items-center'>
                     <svg className='w-16 h-16 fill-white'>

@@ -43,3 +43,7 @@ body {
 * {
     transition: all 0.3s;
 }
+
+.list-disc li::marker {
+   @apply text-primary-default text-lg;
+}
