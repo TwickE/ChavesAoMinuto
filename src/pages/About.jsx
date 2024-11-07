@@ -7,6 +7,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import QualitiesSection from '../components/QualitiesSection'
 import { Helmet } from 'react-helmet-async'
 import logo from '../assets/logo.webp'
+import Whatsapp from '../components/Whatsapp'
 
 function About() {
     return (
@@ -42,9 +43,10 @@ function About() {
             <Navbar currentPage='about' />
             <Breadcrumbs pageName='Quem Somos' />
             <AboutSection />
-            <Marquee />
+            <Marquee marginY="my-20" />
             <QualitiesSection />
             <Footer />
+            <Whatsapp />
         </>
     )
 }

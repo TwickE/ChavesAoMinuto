@@ -7,6 +7,7 @@ import UseScrollTop from '../hooks/useScrollTop'
 import NotFoundSection from '../components/NotFoundSection'
 import { Helmet } from 'react-helmet-async';
 import logo from '../assets/logo.webp';
+import Whatsapp from '../components/Whatsapp';
 
 function Service() {
     const location = useLocation();
@@ -82,7 +83,7 @@ function Service() {
             <Breadcrumbs pageName={service.name} intermidiatePage={true} />
             <ServiceDetail serviceData={service} />
             <Footer />
-            {console.log(service)}
+            <Whatsapp />
         </>
 
     )

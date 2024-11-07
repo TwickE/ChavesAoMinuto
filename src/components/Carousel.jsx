@@ -1,6 +1,6 @@
 import slider1 from '../assets/slider1.webp'
 import slider2 from '../assets/slider2.webp'
-import slider3 from '../assets/slider3.webp'
+import slider3 from '../assets/slider33.webp'
 import { Link } from 'react-router-dom'
 import icons from '../assets/icons.svg'
 import { useState, useEffect } from 'react'

@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import ContactSection from '../components/ContactSection'
 import { Helmet } from 'react-helmet-async'
 import logo from '../assets/logo.webp'
+import Whatsapp from '../components/Whatsapp'
 
 function Contact() {
     return (
@@ -41,6 +42,7 @@ function Contact() {
             <Breadcrumbs pageName='Contactos' />
             <ContactSection />
             <Footer />
+            <Whatsapp />
         </>
     )
 }

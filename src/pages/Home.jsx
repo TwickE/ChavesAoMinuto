@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import UseScrollTop from '../hooks/useScrollTop'
 import { Helmet } from 'react-helmet-async'
 import logo from '../assets/logo.webp'
+import Whatsapp from '../components/Whatsapp'
 
 function Home() {
     return (
@@ -45,6 +46,7 @@ function Home() {
             <ServicesSection />
             <QualitiesSection />
             <Footer />
+            <Whatsapp />
         </>
     )
 }

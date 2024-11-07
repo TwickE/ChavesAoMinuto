@@ -4,14 +4,24 @@
         "image": "keyDuplication",
         "imageDescription": "Várias chaves penduradas numa parede",
         "smallDescription": "Serviço profissional de cópia de chaves, rápido e fiável, com atenção à segurança.",
-        "description": "Especializamo-nos em cópia de chaves com precisão e rapidez, garantindo que cada duplicado mantém os mais altos padrões de segurança. Utilizamos equipamentos avançados e contamos com técnicos experientes, preparados para realizar cópias de chaves residenciais, comerciais, e automóveis. Este serviço é ideal tanto para quem precisa de um duplicado de confiança como para quem busca soluções de conveniência e acessibilidade. Pode confiar no nosso profissionalismo e compromisso em entregar um serviço eficiente e seguro."
+        "description": "Especializamo-nos em cópia de chaves com precisão e rapidez, garantindo que cada duplicado mantém os mais altos padrões de segurança. Utilizamos equipamentos avançados e contamos com técnicos experientes, preparados para realizar cópias de chaves residenciais, comerciais, e automóveis. Este serviço é ideal tanto para quem precisa de um duplicado de confiança como para quem busca soluções de conveniência e acessibilidade. Pode confiar no nosso profissionalismo e compromisso em entregar um serviço eficiente e seguro.",
+        "marquee" : true
     },
     {
         "name": "Instalação de Fechaduras",
         "image": "lockInstallation",
         "imageDescription": "um técnico a instalar uma fechadura numa porta",
         "smallDescription": "Instalação profissional de fechaduras para máxima segurança e tranquilidade.",
-        "description": "Oferecemos um serviço especializado de instalação de fechaduras, adaptado a todas as necessidades de segurança residencial e comercial. Desde fechaduras tradicionais a sistemas modernos de alta segurança, os nossos técnicos garantem uma instalação precisa e de confiança. Com anos de experiência no setor, estamos preparados para recomendar as melhores opções de proteção, proporcionando tranquilidade e segurança ao cliente, com um trabalho rápido e de qualidade."
+        "description": "Oferecemos um serviço especializado de instalação de fechaduras, adaptado a todas as necessidades de segurança residencial e comercial. Desde fechaduras tradicionais a sistemas modernos de alta segurança, os nossos técnicos garantem uma instalação precisa e de confiança. Com anos de experiência no setor, estamos preparados para recomendar as melhores opções de proteção, proporcionando tranquilidade e segurança ao cliente, com um trabalho rápido e de qualidade.",
+        "marquee" : true
+    },
+    {
+        "name": "Serviços de Condomínios",
+        "image": "condo",
+        "imageDescription": "Um condomínio",
+        "smallDescription": "Soluções completas para a segurança de condomínios: instalação de fechaduras e cópias de chaves.",
+        "description": "Prestamos um serviço especializado para condomínios, oferecendo a instalação de fechaduras de alta qualidade e a criação e duplicação de chaves em grande volume. Adaptamos as soluções às necessidades de segurança e conveniência do espaço, assegurando uma gestão eficiente e segura do acesso às áreas comuns e privadas. Com profissionais experientes e recursos adequados, garantimos um serviço de confiança para manter o condomínio seguro e bem acessível.",
+        "promo": "Preço Especial"
     },
     {
         "name": "Duplicação de Comandos de Garagem",
@@ -40,12 +50,5 @@
         "imageDescription": "Uns sapatos a serem reparados",
         "smallDescription": "Reparação de calçado com qualidade e atenção ao detalhe.",
         "description": "Oferecemos um serviço de reparação de calçado especializado, recuperando a qualidade e o conforto dos seus sapatos preferidos. Desde a substituição de solas e tacões ao tratamento de couro e costuras, trabalhamos com materiais de alta qualidade e técnicas cuidadosas para prolongar a vida útil do seu calçado. Confie-nos os seus sapatos para um resultado duradouro e com acabamentos profissionais."
-    },
-    {
-        "name": "Serviços de Condomínios",
-        "image": "condo",
-        "imageDescription": "Um condomínio",
-        "smallDescription": "Soluções completas para a segurança de condomínios: instalação de fechaduras e cópias de chaves.",
-        "description": "Prestamos um serviço especializado para condomínios, oferecendo a instalação de fechaduras de alta qualidade e a criação e duplicação de chaves em grande volume. Adaptamos as soluções às necessidades de segurança e conveniência do espaço, assegurando uma gestão eficiente e segura do acesso às áreas comuns e privadas. Com profissionais experientes e recursos adequados, garantimos um serviço de confiança para manter o condomínio seguro e bem acessível."
     }
 ]

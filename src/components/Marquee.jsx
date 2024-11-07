@@ -1,10 +1,11 @@
 import ReactMarquee from 'react-fast-marquee'
 import keyBrands from '../assets/keyBrands.js'
 import data from '../assets/keyBrands.json'
+import PropTypes from 'prop-types'
 
-function Marquee() {
+function Marquee(props) {
     return (
-        <section className="my-20 w-full max-w-[1440px] mx-auto px-4 overflow-x-hidden">
+        <section className={`${props.marginY} w-full max-w-[1440px] mx-auto px-4 overflow-x-hidden`}>
             <ReactMarquee
                 autoFill={true}
                 gradient={true}
@@ -33,6 +34,10 @@ function Marquee() {
             </ReactMarquee>
         </section>
     )
+}
+
+Marquee.propTypes = {
+    marginY: PropTypes.string
 }
 
 export default Marquee
