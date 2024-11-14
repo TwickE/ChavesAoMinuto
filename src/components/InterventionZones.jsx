@@ -8,30 +8,32 @@ function InterventionZones() {
                 <h2 className="max-[495px]:hidden block text-primary-default text-2xl font-bold mb-4 w-fit">Zonas de Intervenção</h2>
                 <div className="max-[495px]:hidden grid grid-cols-2 gap-10 sm:gap-20 w-fit text-xl font-bold text-gray-900 mx-auto">
                     <ul className="list-disc list-inside flex flex-col gap-4">
-                        <li>Almada</li>
-                        <li>Amadora</li>
-                        <li>Cascais</li>
                         <li>Lisboa</li>
                         <li>Loures</li>
+                        <li>Amadora</li>
+                        <li>Odivelas</li>
+                        <li>Cascais</li>
+                        <li>Oeiras</li>
                     </ul>
                     <ul className="list-disc list-inside flex flex-col gap-4">
-                        <li>Odivelas</li>
-                        <li>Oeiras</li>
-                        <li>Seixal</li>
                         <li>Sintra</li>
+                        <li>Mafra</li>
+                        <li>Almada</li>
+                        <li>Seixal</li>
                     </ul>
                 </div>
                 <div className='max-[495px]:flex hidden flex-row items-center gap-6'>
                     <ul className="list-disc list-inside flex flex-col gap-2 text-xl font-bold text-gray-900 w-fit">
-                        <li>Almada</li>
-                        <li>Amadora</li>
-                        <li>Cascais</li>
                         <li>Lisboa</li>
                         <li>Loures</li>
+                        <li>Amadora</li>
                         <li>Odivelas</li>
+                        <li>Cascais</li>
                         <li>Oeiras</li>
-                        <li>Seixal</li>
                         <li>Sintra</li>
+                        <li>Mafra</li>
+                        <li>Almada</li>
+                        <li>Seixal</li>
                     </ul>
                     <img src={interventionZonesImg} className='max-[495px]:block hidden max-h-72' alt="Mapa de Portugal com as zonas de intervenção destacadas" />
                 </div>

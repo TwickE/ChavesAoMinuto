@@ -11,7 +11,7 @@ function Footer() {
             <div className="mt-8 w-fit max-w-[1440px] mx-auto lg:w-full flex flex-col gap-16 lg:flex-row justify-center lg:justify-around items-center lg:items-start">
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold capitalize'>
                     <h3 className='mb-3 text-2xl text-primary-default'>Páginas</h3>
-                    <Link to="/" className="hover:text-primary-defaul text-center">Início</Link>
+                    <Link to="/" className="hover:text-primary-default text-center">Início</Link>
                     <Link to="/services" className="hover:text-primary-default text-center">Serviços</Link>
                     <Link to="/about" className="hover:text-primary-default text-center">Quem Somos</Link>
                     <Link to="/contact" className="hover:text-primary-default text-center">Contactos</Link>

@@ -4,7 +4,7 @@ function Whatsapp() {
             href="https://wa.me/351961674262?text=Olá Chaves ao Minuto necessito dos vossos serviços!"
             aria-label="Contactar Chaves ao Minuto via Whatsapp"
             target="_blank"
-            className='fixed z-20 bg-white bottom-0 right-0 rounded-full p-2 m-6 drop-shadow-lg animate-grow'>
+            className='fixed z-20 bottom-0 right-0 rounded-full p-2 m-6 drop-shadow-lg animate-growBig'>
             <svg className='w-12 h-12' viewBox="0 0 176 176">
                 <g filter="url(#filter0_f_226_6)">
                     <path d="M54.5322 138.45L56.7672 139.774C66.1542 145.345 76.9172 148.292 87.8932 148.297H87.9162C121.623 148.297 149.055 120.871 149.069 87.162C149.075 70.827 142.72 55.466 131.174 43.911C125.511 38.2124 118.774 33.6936 111.353 30.6163C103.932 27.5389 95.9741 25.9641 87.9402 25.983C54.2072 25.983 26.7742 53.406 26.7622 87.113C26.7456 98.623 29.9868 109.903 36.1112 119.648L37.5662 121.96L31.3872 144.518L54.5322 138.45ZM13.7212 161.994L24.1602 123.88C17.7222 112.726 14.3352 100.072 14.3392 87.108C14.3562 46.552 47.3602 13.558 87.9172 13.558C107.598 13.568 126.071 21.227 139.964 35.13C153.857 49.033 161.501 67.513 161.494 87.167C161.476 127.72 128.467 160.72 87.9162 160.72H87.8842C75.5712 160.715 63.4722 157.626 52.7252 151.766L13.7212 161.994Z" fill="#B3B3B3" />

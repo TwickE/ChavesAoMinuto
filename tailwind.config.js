@@ -28,10 +28,22 @@ export default {
                         border: '1px solid white'
 
                     },
+                },
+                growBig: {
+                    '0%, 100%': {
+                        transform: 'scale(1)',
+                        backgroundColor: 'white'
+                    },
+                    '50%': {
+                        transform: 'scale(1.3)',
+                        backgroundColor: '#25d366'
+
+                    },
                 }
             },
             animation: {
                 grow: 'grow 1.3s ease-in-out infinite',
+                growBig: 'growBig 2s ease-in-out infinite',
             }
         },
     },
