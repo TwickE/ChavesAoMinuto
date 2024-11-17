@@ -2,7 +2,7 @@ import interventionZonesImg from '../assets/interventionZones.webp'
 
 function InterventionZones() {
     return (
-        <section className="p-4 w-full max-w-[1440px] mx-auto min-[680px]:px-20 mt-12 flex flex-row max-[495px]:flex-col justify-center items-center gap-5 bg-primary-superlight">
+        <section className="p-4 w-full mx-auto min-[680px]:px-20 mt-12 flex flex-row max-[495px]:flex-col justify-center items-center gap-5 bg-primary-superlight">
             <h2 className="max-[495px]:block hidden text-primary-default text-2xl font-bold mb-4 w-fit">Zonas de Intervenção</h2>
             <div className='p-4 max-[495px]:p-0 sm:p-6'>
                 <h2 className="max-[495px]:hidden block text-primary-default text-2xl font-bold mb-4 w-fit">Zonas de Intervenção</h2>

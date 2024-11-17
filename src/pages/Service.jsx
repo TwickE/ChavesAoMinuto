@@ -9,7 +9,9 @@ import Whatsapp from '../components/Whatsapp';
 
 function Service() {
     const location = useLocation();
+    console.log(location)
     const { service } = location.state || {};
+    console.log(service)
 
     if (!service) {
         return <>
