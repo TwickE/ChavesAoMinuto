@@ -4,30 +4,20 @@ import ServiceDetail from '../components/ServiceDetail'
 import Footer from '../components/Footer'
 import { useLocation } from 'react-router-dom'
 import UseScrollTop from '../hooks/useScrollTop'
-import NotFoundSection from '../components/NotFoundSection'
 import Whatsapp from '../components/Whatsapp';
+import data from '../assets/services.json'
 
 function Service() {
     const location = useLocation();
-    console.log(location)
-    const { service } = location.state || {};
-    console.log(service)
-
-    if (!service) {
-        return <>
-            <UseScrollTop />
-            <Navbar currentPage=''/>
-            <NotFoundSection />
-            <Footer />
-        </>;
-    }
+    const decodedPathname = decodeURIComponent(location.pathname);
+    const serviceData = data.find(s => s.name === decodedPathname.split('/').pop());
 
     return (
         <>
             <UseScrollTop />
             <Navbar currentPage="services" />
-            <Breadcrumbs pageName={service.name} intermidiatePage={true} />
-            <ServiceDetail serviceData={service} />
+            <Breadcrumbs pageName={serviceData.name} intermidiatePage={true} />
+            <ServiceDetail serviceData={serviceData} />
             <Footer />
             <Whatsapp />
         </>

@@ -19,7 +19,7 @@ function Footer() {
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold'>
                     <Link to="/services" className='mb-3 text-2xl text-primary-default'>Serviços</Link>
                     {data.map((service, index) => (
-                        <Link key={index} to={`/services/${service.name}`} state={{ service }} className="hover:text-primary-default text-center">{service.name}</Link>
+                        <Link key={index} to={`/services/${service.name}`} className="hover:text-primary-default text-center">{service.name}</Link>
                     ))}
                 </div>
                 <div className='flex flex-col items-center lg:items-start gap-3 text-gray-900 text-xl font-bold'>
