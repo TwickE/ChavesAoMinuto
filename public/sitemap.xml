@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://chavesaominuto.pt/</loc>
+        <loc>https://chavesaominuto.pt/</loc>
         <changefreq>yearly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/about</loc>
+        <loc>https://chavesaominuto.pt/about</loc>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/contact</loc>
+        <loc>https://chavesaominuto.pt/contact</loc>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services</loc>
+        <loc>https://chavesaominuto.pt/services</loc>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/Abertura%25252520de%25252520Portas</loc>
+        <loc>https://chavesaominuto.pt/services/Cópia%20de%20Chaves</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/C%252525C3%252525B3pia%25252520de%25252520Chaves</loc>
+        <loc>https://chavesaominuto.pt/services/Instalação%20de%20Fechaduras</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/Duplica%252525C3%252525A7%252525C3%252525A3o%25252520de%25252520Chaves%25252520de%25252520Carros</loc>
+        <loc>https://chavesaominuto.pt/services/Serviços%20de%20Condomínios</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/Duplica%252525C3%252525A7%252525C3%252525A3o%25252520de%25252520Comandos%25252520de%25252520Garagem</loc>
+        <loc>https://chavesaominuto.pt/services/Duplicação%20de%20Comandos%20de%20Garagem</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/Instala%252525C3%252525A7%252525C3%252525A3o%25252520de%25252520Fechaduras</loc>
+        <loc>https://chavesaominuto.pt/services/Duplicação%20de%20Chaves%20de%20Carros</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/Repara%252525C3%252525A7%252525C3%252525A3o%25252520de%25252520Cal%252525C3%252525A7ado</loc>
+        <loc>https://chavesaominuto.pt/services/Abertura%20de%20Portas</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://chavesaominuto.pt/services/Servi%252525C3%252525A7os%25252520de%25252520Condom%252525C3%252525ADnios</loc>
+        <loc>https://chavesaominuto.pt/services/Reparação%20de%20Calçado</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
