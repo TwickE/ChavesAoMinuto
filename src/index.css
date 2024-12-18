@@ -3,26 +3,26 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'MontserratCustom';
-    src: url('../public/fonts/Montserrat-Regular.ttf') format('ttf');
+    font-family: "MontserratCustom";
+    src: url("../public/fonts/Montserrat-Regular.ttf") format("ttf");
     font-weight: regular;
     font-style: regular;
 }
 
 @font-face {
-    font-family: 'MontserratCustom';
-    src: url('../public/fonts/Montserrat-Bold.ttf') format('ttf');
+    font-family: "MontserratCustom";
+    src: url("../public/fonts/Montserrat-Bold.ttf") format("ttf");
     font-weight: bold;
     font-style: bold;
 }
 
 @layer components {
     .font-montserrat {
-        font-family: 'MontserratCustom', sans-serif;
+        font-family: "MontserratCustom", sans-serif;
     }
 
     .btn {
-        @apply flex gap-2 w-fit text-white bg-primary-default hover:bg-primary-dark focus:ring-4 focus:outline-none focus:ring-primary-light font-bold rounded text-base px-4 py-2 text-center
+        @apply flex gap-2 w-fit text-white bg-primary-default hover:bg-primary-dark focus:ring-4 focus:outline-none focus:ring-primary-light font-bold rounded text-base px-4 py-2 text-center;
     }
 
     .custom-gradient {
@@ -45,7 +45,7 @@ body {
 }
 
 .list-disc li::marker {
-   @apply text-primary-default text-lg;
+    @apply text-primary-default text-lg;
 }
 
 .no-animation {
@@ -113,4 +113,28 @@ body {
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
 }

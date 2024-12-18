@@ -9,15 +9,15 @@ function QualitiesSection() {
     const yearsPassed = currentYear - targetYear;
 
     const qualitie1Ref = useRef(null);
-    const qualitie1Visible = useScrollAnimation(qualitie1Ref, 230);
+    const qualitie1Visible = useScrollAnimation(qualitie1Ref, 150);
     const qualitie2Ref = useRef(null);
-    const qualitie2Visible = useScrollAnimation(qualitie2Ref, 230);
+    const qualitie2Visible = useScrollAnimation(qualitie2Ref, 150);
     const qualitie3Ref = useRef(null);
-    const qualitie3Visible = useScrollAnimation(qualitie3Ref, 230);
+    const qualitie3Visible = useScrollAnimation(qualitie3Ref, 150);
     const qualitie4Ref = useRef(null);
-    const qualitie4Visible = useScrollAnimation(qualitie4Ref, 230);
+    const qualitie4Visible = useScrollAnimation(qualitie4Ref, 150);
     const qualitie5Ref = useRef(null);
-    const qualitie5Visible = useScrollAnimation(qualitie5Ref, 230);
+    const qualitie5Visible = useScrollAnimation(qualitie5Ref, 150);
 
 
     return (

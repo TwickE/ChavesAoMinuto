@@ -3,10 +3,14 @@ import slider2 from '../assets/slider2.webp'
 import slider3 from '../assets/slider3.webp'
 import { Link } from 'react-router-dom'
 import icons from '../assets/icons.svg'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import useScrollAnimation from '../hooks/useScrollAnimation'
 
 function Carousel() {
     const [current, setCurrent] = useState(0)
+
+    const infoRef = useRef(null);
+    const infoVisible = useScrollAnimation(infoRef, 50);
 
     const previousSlide = () => {
         const length = 3
@@ -38,7 +42,7 @@ function Carousel() {
         <section className='overflow-hidden relative mt-20 h-64 md:h-96'>
             <div className="flex transition ease-in-out duration-700" style={{ transform: `translateX(-${current * 100}%)` }}>
                 <div className='min-w-full h-64 md:h-96 relative flex items-center'>
-                    <div className='absolute ml-16 w-52 md:w-96 px-4 min-[1440px]:ml-[calc((100vw-1440px)/2+80px)]'>
+                    <div ref={infoRef} className={`${infoVisible ? 'fadeInUp' : 'no-animation'} absolute ml-16 w-52 md:w-96 px-4 min-[1440px]:ml-[calc((100vw-1440px)/2+80px)]`}>
                         <h2 className="font-montserrat font-bold text-white text-2xl md:text-4xl">Não consegue abrir a sua porta?</h2>
                         <Link to="/contact" className="btn mt-2">
                             Contacte-nos
